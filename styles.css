@@ -1,0 +1,81 @@
+/* Basic styling for the music player */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.music-player-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.music-library, .playlist {
+  margin: 20px 0;
+}
+
+#song-list, #playlist {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#song-list li, #playlist li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#song-list li:hover, #playlist li:hover {
+  background-color: #e0e0e0;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#volume-control {
+  width: 100%;
+  margin-top: 10px;
+}
